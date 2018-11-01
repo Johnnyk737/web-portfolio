@@ -2,10 +2,10 @@
   "name": "web-portfolio",
   "version": "1.0.0",
   "description": "test",
-  "main": "js/main.js",
+  "main": "app.js",
   "scripts": {
     "postinstall": "gulp build",
-    "start": "gulp build"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,11 +22,13 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "browser-sync": "^2.26.3",
+    "express": "^4.16.4",
     "gulp-babel": "^8.0.0",
     "gulp-if": "^2.0.2",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "gulp-uglify-es": "^1.0.4",
+    "path": "^0.12.7",
     "run-sequence": "^2.2.1"
   }
 }
