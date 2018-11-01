@@ -72,12 +72,10 @@ gulp.task('start', gulp.parallel('browserSync', 'sass', 'watch')
 
 
 
+// gulp.task('build', (callback) => {
+//   console.log('Building files for Production');
+//   runSequence(['sass', 'minify'], callback);
+// });
 
-
-
-
-
-gulp.task('build', (callback) => {
-  console.log('Building files for Production');
-  runSequence('sass', 'minify', callback);
-});
+gulp.task('build', gulp.parallel('sass') //minify
+);
