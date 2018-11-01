@@ -4,8 +4,12 @@
   "description": "test",
   "main": "js/main.js",
   "scripts": {
+<<<<<<< HEAD
     "postinstall": "gulp build",
     "start": "node server.js"
+=======
+    "start": "gulp start"
+>>>>>>> 4bec43c92850040301ad89a2ed80a86b37cebf14
   },
   "author": "",
   "license": "ISC",
