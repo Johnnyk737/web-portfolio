@@ -1,0 +1,445 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Web Portfolio</title>
+  </head>
+  <body>
+
+    <div class="sidebar-container">
+      <!-- sidebar with links -->
+      <div class="sidebar-top">
+        <img src="/img/profilePicture1.jpg" alt="John Kroll" class="circle responsive-img avatar" />
+        <div id="nameDesc" class="name-desc brand-logo">
+          
+          <h1 class="text-darken-1">
+            John Kroll
+          </h1>
+          <span class="title-desc text-darken-1">
+            Web Developer
+          </span>
+          
+        </div>
+      </div>
+
+      <ul class="linkList nav">
+        <li id='li-about-me'>
+          <div id="link-text">About me</div>
+        </li>
+        <li id="li-experience">
+          <div>Experience</div>
+        </li>
+        <li id="li-skills">
+          <div>Skills</div>
+        </li>
+        <li id="li-projects">
+          <div>Projects</div>
+        </li>
+        <li id="li-education">
+          <div>Education</div>
+        </li>
+        <li id="li-contact">
+          <div>Contact</div>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="top-bar-visible">
+      <a href="#" data-target="mobile-list" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <div class="top-bar-container">
+
+        <img src="/img/profilePicture1.jpg" alt="John Kroll" class="circle responsive-img avatar-top" />
+        <div id="nameDesc" class="name-desc brand-logo">
+          
+          <h1>
+            John Kroll
+          </h1>
+          <span class="title-desc">
+            Web Developer
+          </span>
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <ul id="mobile-list" class="linkList sidenav">
+        <li id='li-about-me'>
+          <div>
+            <a href="#sect-about-me">About me</a>
+          </div>
+        </li>
+        <li id="li-experience">
+          <div>
+            <a href="#sect-exp">Experience</a>
+          </div>
+        </li>
+        <a href="#sect-skills"></a>
+          <li id="li-skills">
+            <div>
+              Skills
+            </div>
+          </li>
+        </a>
+        <li id="li-projects">
+          <div>
+            <a href="#sect-projects">Projects</a>
+          </div>
+        </li>
+        <li id="li-education">
+          <div>
+            <a href="#sect-education">Education</a>
+          </div>
+        </li>
+        <li id="li-contact">
+          <div>
+            <a href="#sect-contact">Contact</a>
+          </div>
+        </li>
+      </ul>
+    
+    <div class="main-container">
+      <section class="body-image">
+      </section>
+      <!-- main content -->
+      
+      <!-- image of me -->
+      <section id="sect-about-me" class="section scroll-spy">
+        <h3 class="section-color">About Me</h3>
+        <p class="section-text">--working-- I am a Software Engineer looking for my next challenge.  Through working in a software support role, I have learned much about debugging code and providing fixes, locating issues, making tough decisions that affect numerous end users, task-switching, and effective prioritization.  During that time, I have had the opportunity to learn various programming languages and the software development life cycle.  
+        </p>
+        
+      </section>
+      <section id="sect-exp" class="section scroll-spy">
+        <h3 class="section-color">Experience</h3>
+        <div class="section-text">
+          <ol class="experience-list">
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <h4 class="header-color company">Cerner Corporation</h4>
+                      <h4 class="role">Associate Senior Software Engineer</h4>
+                    </div>
+                    <ol class="role-details">
+                      <li>Provided support on entire Healthe Intent Platform on a quarterly basis</li>
+                      <li>test</li>
+                    </ol>
+                      <div class="card-action exp-years">
+                      <p>September 2018 - Current
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <h4 class="header-color company">Udacity</h4>
+                      <h4 class="role">Student</h4>
+                    </div>
+                    <ol class="role-details">
+                      <li>test</li>
+                      <li>test</li>
+                    </ol>
+                    <div class="card-action exp-years">
+                      <p>January 2017 - August 2018
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <h4 class="header-color company">Cerner Corporation</h4>
+                      <h4 class="role">Software Engineer</h4>
+                    </div>
+                    <ol class="role-details">
+                      <li>test</li>
+                      <li>test</li>
+                    </ol>
+                    <div class="card-action exp-years">
+                      <p>March 2017 - September 2018
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <h4 class="header-color company">Cerner Corporation</h4>
+                      <h4 class="role">Software Analyst</h4>
+                    </div>
+                    <ol class="role-details">
+                      <li>test</li>
+                      <li>test</li>
+                    </ol>
+                    <div class="card-action exp-years">
+                      <p>September 2011 - March 2017
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section id="sect-skills" class="section scroll-spy">
+        <h3 class="section-color">Skills</h3>
+        <ul id="skill-list" class="skill-list section-text">
+          <li>
+            <h4 class="header-color">Web</h4>
+            <dl>
+              <div class="skill">
+                <img src="img/html5-original.svg" height="75" width="75" alt="HTML5" />
+                <p>HTML5</p>
+              </div>
+              <div class="skill">
+                <img src="img/javascript-original.svg" height="75" width="75" alt="JavaScript" />
+                <p>JavaScript</p>
+              </div>
+              <div class="skill">
+                <img src="img/jquery-original.svg" height="75" width="75" alt="jQuery" />
+                <p>jQuery</p>
+              </div>
+              <div class="skill">
+                <img src="img/css3-original.svg" height="75" width="75" alt="CSS3" />
+                <p>CSS3</p>
+              </div>
+            </dl>
+          </li>
+          <li>
+            <h4 class="header-color">Frameworks</h4>
+            <dl>
+              <div class="skill">
+                <img src="img/angularjs-original.svg" height="75" width="75" alt="Angular 2" />
+                <p>AngularJS 2</p>
+              </div>
+              <div class="skill">
+                <img src="img/ember-original-wordmark.svg" height="75" width="75" alt="Ember" />
+                <p>Ember</p>
+              </div>
+              <div class="skill">
+                <img src="img/react-original.svg" height="75" width="75" alt="React" />
+                <p>React</p>
+              </div>
+            </dl>
+          </li>
+          <li>
+            <h4 class="header-color">Software Development</h4>
+            <dl>
+              <div class="skill">
+                <img src="img/java-original.svg" height="75" width="75" alt="Java" />
+                <p>Java</p>
+              </div>
+              <div class="skill">
+                <img src="img/python-original.svg" height="75" width="75" alt="Python" />
+                <p>Python</p>
+              </div>
+              <div class="skill">
+                <img src="img/ruby-original.svg" height="75" width="75" alt="Ruby" />
+                <p>Ruby</p>
+              </div>
+            </dl>
+          </li>
+          <li>
+            <h4 class="header-color">Build Tools</h4>
+            <dl>
+              <div class="skill">
+                <img src="img/grunt-original.svg" height="75" width="75" alt="Grunt" />
+                <p>Grunt</p>
+              </div>
+              <div class="skill">
+                <img src="img/gulp-plain.svg" height="75" width="75" alt="Gulp" />
+                <p>Gulp</p>
+              </div>
+              <div class="skill">
+                <img src="img/nodejs-original.svg" height="75" width="75" alt="NodeJS" />
+                <p>NodeJS</p>
+              </div>
+              <div class="skill">
+                <img src="img/npm-original-wordmark.svg" height="75" width="75" alt="NPM" />
+                <p>NPM</p>
+              </div>
+            </dl>
+          </li>
+          <li>
+            <h4 class="header-color">Other</h4>
+            <dl>
+              <div class="skill">
+                <img src="img/github-original-wordmark.svg" height="75" width="75" alt="GitHub" />
+                <p>GitHub</p>
+              </div>
+              <div class="skill">
+                <img src="img/intellij-original.svg" height="75" width="75" alt="IntelliJ" />
+                <p>IntelliJ</p>
+              </div>
+              <div class="skill">
+                <img src="img/mysql-original.svg" height="75" width="75" alt="MySQL" />
+                <p>MySQL</p>
+              </div>
+              <div class="skill">
+                <img src="img/pycharm-original.svg" height="75" width="75" alt="PyCharm" />
+                <p>Pycharm</p>
+              </div>
+            </dl>
+          </li>
+        </ul>
+      </section>
+      <section id="sect-projects" class="section scroll-spy">
+        <h3 class="section-color">Projects</h3>
+        <div class="section-text">
+          <ul class="project-list">
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col s12 m12">
+                        <h4 class="header-color"><a href="https://github.com/Johnnyk737/arcade-game">Arcade Game</a></h4>
+                        <p>This game works just like how Frogger is played. You have one character that you must get to cross the road. If you get all the way across, then you win the game and it starts over. If you get hit by one of the enemies, then you are sent back to the starting position.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-action">
+                    <p>Technologies used: 
+                      HTML/CSS, JavaScript, jQuery
+                    </p>
+                </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col s12 m12">
+                        <h4 class="header-color"><a href="https://github.com/Johnnyk737/neighborhood-map">Neighborhood Map</a></h4>
+                        <p>This web app shows different tourist places to visit in Dublin, Ireland. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-action">
+                    <p>Technologies used:
+                      HTML/CSS, JavaScript, React, Google APIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col s12 m12">
+                        <h4 class="header-color"><a href="https://github.com/Johnnyk737/myreads">Book Store App</a></h4>
+                        <p>This React-designed webapp allows you to see the books you are currently reading, the books you want to read, and the books you have read. You can also search for more books and add them to any of the 3 sections. If you would like to remove a book from the list entirely, there is an option to select 'none'.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-action">
+                    <p>Technologies used: 
+                      HTML/CSS, JavaScript, React
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <div class="row">
+                      <div class="col s12 m12">
+                        <h4 class="header-color"><a href="https://github.com/Johnnyk737/restaurant-review">Restaurant Review</a></h4>
+                        <p>A React-built app that uses Google APIs to show you specific restaurant locations and show you their reviews</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-action">
+                    <p>Technologies used: 
+                      HTML/CSS, JavaScript, React, Google APIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </section>
+      <section id="sect-education" class="section scroll-spy">
+        <h3 class="section-color">Education</h3>
+        <div class="section-text">
+          <ol class="education-list">
+            <li>
+              <dd><em>University of Dubuque (2006 – 2010)</em></dd>
+              <dd>Bachelor of Science – Computer Information Technology</dd>
+              <dd>Curriculum included Project Management, networking, and development.</dd>
+              <dd>Languages covered: HTML, CSS, PHP, Java, SQL</dd>
+            </li>
+
+            <li>
+              <dd><em>Udacity (Jan 2018 – Aug 2018)</em></dd>
+              <dd>Nanodegree – Front End Web Development</dd>
+              <dd>Curriculum included object oriented programming, ARIA and semantic development, React, Ember, Angular, JavaScript, HTML, CSS, and mobile web design.</dd>
+              <dd>Languages covered: HTML, CSS, JavaScript</dd>
+              <dd>Frameworks/Packages: NPM, Ember, Angular, React</dd>
+            </li>
+          </ol>
+        </div>
+        
+      </section>
+      <section id="sect-contact" class="section scroll-spy">
+        <h3 class="section-color">Contact</h3>
+        <div class="section-text">
+          <ul class="contact-list">
+            <li>
+              Email: <a href="mailto:jmkroll21@gmail.com">jmkroll21@gmail.com</a>
+            </li>
+            <li>
+              GitHub: <a href="https://github.com/Johnnyk737">Johnnyk737</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

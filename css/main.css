@@ -1,0 +1,275 @@
+html {
+  font-family: Roboto, sans-serif; }
+
+body {
+  width: 100%;
+  background-color: #f6f6f6;
+  font-weight: 200; }
+
+/**************************************
+
+  SideBar Start
+
+**************************************/
+.sidebar-container {
+  box-shadow: 4px 0px 20px -3px rgba(0, 0, 0, 0.75);
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 1; }
+
+.sidebar-top {
+  border-bottom: solid 2px #120649;
+  text-align: center;
+  padding-top: 25px;
+  position: relative;
+  background-color: #f6f6f6;
+  padding-bottom: 10px;
+  font-weight: 200;
+  font-size: 2.1rem; }
+
+.avatar {
+  height: 152px;
+  width: 152px; }
+
+.name-desc {
+  margin-top: 10px; }
+
+.name-desc h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: inherit;
+  color: #456990; }
+
+.title-desc {
+  font-size: 14px;
+  color: #028090 !important; }
+
+.linkList {
+  list-style: none;
+  padding: 0px;
+  line-height: 100%; }
+
+.linkList li {
+  padding: 15px;
+  transition: all 0.2s ease-out; }
+
+.linkList li:hover {
+  cursor: pointer;
+  background-color: #EEEFEF; }
+
+.linkList li > div {
+  transition: 0.2s all ease-out;
+  -webkit-transition: 0.2s all ease-out; }
+
+.linkList li:hover > div {
+  transform: translateX(20px); }
+
+/**************************************
+
+  SideBar End
+
+**************************************/
+/**************************************
+
+  Top Nav Start
+
+**************************************/
+.top-bar-visible {
+  height: 0;
+  display: none; }
+
+nav a.sidenav-trigger i {
+  height: 56px;
+  line-height: 56px; }
+
+.material-icons {
+  font-size: 30px !important;
+  color: #000000;
+  margin-top: 17px; }
+
+.brand-logo {
+  color: #000000; }
+
+/**************************************
+
+  Top Nav End
+
+**************************************/
+.body-image {
+  position: relative;
+  background: url("/img/kansas-city-1380036_1920.jpg") no-repeat top center/cover;
+  height: 100vh;
+  filter: opacity(80%); }
+
+/**************************************
+
+  Main Start
+
+**************************************/
+.main-container {
+  position: absolute;
+  left: 20%;
+  top: 0px;
+  width: calc(100% - 20%); }
+
+.section {
+  padding-bottom: 0;
+  padding-top: 0; }
+
+.section h3 {
+  padding: 20px 30px;
+  font-size: 30px;
+  font-weight: 200; }
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.section-color {
+  background-color: #4F79A5;
+  color: white; }
+
+.header-color {
+  color: #028090 !important; }
+
+.section-text {
+  padding: 25px; }
+
+.experience-list, .project-list {
+  list-style: none;
+  margin: 0 12%; }
+
+.card {
+  border-radius: 10px;
+  width: 93%;
+  box-shadow: 4px 0px 20px -3px rgba(0, 0, 0, 0.75); }
+
+.card .card-content {
+  padding: 10px 24px 0px; }
+
+.card-action {
+  margin-top: 10px; }
+
+.company {
+  float: left; }
+
+.role {
+  font-size: 1.1rem;
+  color: red;
+  float: right;
+  text-size-adjust: auto;
+  padding-top: 5px; }
+
+.role-details {
+  list-style: disc !important; }
+
+h4 {
+  font-weight: inherit;
+  font-size: 1.7rem; }
+
+h4 a {
+  text-decoration: none;
+  color: inherit; }
+
+.skill-list {
+  list-style: none;
+  padding: 10px 40px;
+  margin-left: 50px; }
+
+.skill-list li {
+  display: inherit; }
+
+.skill-list li h4 {
+  font-size: 20px; }
+
+.skill-list li dl {
+  padding: 10px;
+  background-color: #fff;
+  margin: 25px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 4px 0px 20px -3px rgba(0, 0, 0, 0.75); }
+
+.skill {
+  display: inline-block;
+  padding: 10px 30px; }
+
+.skill p {
+  margin: 10px 0 0;
+  text-align: center; }
+
+.contact-list {
+  list-style: none; }
+
+.contact-list a {
+  text-decoration: underline !important; }
+
+/**************************************
+
+  Main End
+
+**************************************/
+@media (max-width: 992px) {
+  nav {
+    background-color: #f6f6f6;
+    line-height: inherit; }
+  .top-bar-visible {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16); }
+  .top-bar-container {
+    right: -14px;
+    position: relative;
+    height: 90px;
+    top: -5px; }
+  .avatar-top {
+    position: relative;
+    height: 52px;
+    width: 52px;
+    right: 145px;
+    top: 24px; }
+  nav .brand-logo {
+    color: black; }
+  .sidebar-container {
+    display: none; }
+  a {
+    color: inherit; }
+  .main-container {
+    left: 0;
+    width: 100%;
+    top: 90px; }
+  .body-image {
+    margin-bottom: -90px; }
+  .section {
+    padding-bottom: 0;
+    padding-top: 0; }
+  h3 {
+    position: relative;
+    top: 90px; }
+  .section-text {
+    top: 90px;
+    position: relative; } }
+
+@media (max-width: 550px) {
+  .section-text > ol {
+    padding: 0; }
+  .card {
+    width: 100%; }
+  .project-list, .experience-list {
+    margin: 0; }
+  .skill {
+    display: inline-block;
+    padding: 10px 20px; } }
