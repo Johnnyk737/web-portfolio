@@ -5,7 +5,7 @@
   "main": "js/main.js",
   "scripts": {
     "postinstall": "gulp build",
-    "start": "node server.js"
+    "start": "gulp build"
   },
   "author": "",
   "license": "ISC",
