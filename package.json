@@ -4,7 +4,8 @@
   "description": "test",
   "main": "js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "gulp build",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
