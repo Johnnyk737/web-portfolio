@@ -15,7 +15,7 @@ var express = require("express");
 var app     = express();
 var path    = require("path");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, './'))); //Trying to set this to the project parent folder
 //app.use(express.static(path.join(__dirname, 'js')));
@@ -27,4 +27,4 @@ app.get('/',function(req,res){
 
 app.listen(PORT);
 
-console.log("Running at Port 3000");
+console.log("Running at Port 5000");

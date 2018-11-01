@@ -39,7 +39,8 @@ body {
   width: 152px; }
 
 .name-desc {
-  margin-top: 10px; }
+  margin-top: 10px;
+  line-height: 80%; }
 
 .name-desc h1 {
   font-size: inherit;
@@ -243,6 +244,9 @@ h4 a {
     top: 24px; }
   nav .brand-logo {
     color: black; }
+  .name-desc {
+    margin-top: 12px;
+    line-height: 80%; }
   .sidebar-container {
     display: none; }
   a {

@@ -62,6 +62,7 @@ body {
 
 .name-desc {
   margin-top: 10px;
+  line-height: 80%;
 }
 
 .name-desc h1 {
@@ -328,10 +329,14 @@ h4 a {
   }
 
   nav .brand-logo {
-    color: black;
-    
+    color: black; 
   }
 
+  .name-desc {
+    margin-top: 12px;
+    line-height: 80%;
+  }
+    
   .sidebar-container {
     display: none;
   }
