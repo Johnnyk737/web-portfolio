@@ -197,6 +197,10 @@ h3 {
   //font-family: Montserrat, sans-serif; //'source sans pro', 
 }
 
+.about-me {
+  font-size: 1.5rem;
+}
+
 .experience-list, .project-list {
   list-style: none;
   margin: 10px 5%;
@@ -388,6 +392,14 @@ h4 a {
   .section-text {
     top: 90px;
     position: relative;
+  }
+
+  .company {
+    float: none;
+  }
+
+  .role {
+    float: none;
   }
 
   .footer-container {
