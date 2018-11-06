@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -68,20 +67,6 @@
         </div>
       </div>
     </nav>
-
-    <!-- <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
-      </div>
-    </nav> -->
-
     <ul id="mobile-list" class="linkList sidenav">
         <li id='li-about-me'>
           <div>
@@ -93,11 +78,10 @@
             <a href="#sect-exp">Experience</a>
           </div>
         </li>
-        <a href="#sect-skills"></a>
-          <li id="li-skills">
-            <div>
-              Skills
-            </div>
+        <li id="li-skills">
+          <div>
+            <a href="#sect-skills">Skills</a>
+          </div>
           </li>
         </a>
         <li id="li-projects">
@@ -120,9 +104,7 @@
     <div class="main-container">
       <section class="body-image">
       </section>
-      <!-- main content -->
-      
-      <!-- image of me -->
+
       <section id="sect-about-me" class="section scroll-spy">
         <h3 class="section-color">About Me</h3>
         <p class="section-text">--working-- I am a Software Engineer looking for my next challenge.  Through working in a software support role, I have learned much about debugging code and providing fixes, locating issues, making tough decisions that affect numerous end users, task-switching, and effective prioritization.  During that time, I have had the opportunity to learn various programming languages and the software development life cycle.  
@@ -142,8 +124,9 @@
                       <h4 class="role">Associate Senior Software Engineer</h4>
                     </div>
                     <ol class="role-details">
-                      <li>Provided support on entire Healthe Intent Platform on a quarterly basis</li>
-                      <li>test</li>
+                      <li>Provided software support on entire Healthe Intent Platform on a quarterly basis</li>
+                      <li>Developed the backend logic specifically for Ireland and EU usage</li>
+                      <li>Experience in: Java, Clojure, Ruby, JavaScript</li>
                     </ol>
                       <div class="card-action exp-years">
                       <p>September 2018 - Current
@@ -162,11 +145,13 @@
                       <h4 class="role">Student</h4>
                     </div>
                     <ol class="role-details">
-                      <li>test</li>
-                      <li>test</li>
+                      <li>Studied front end web development</li>
+                      <li>Completed projects that included HTML/CSS, JavaScript and frameworks Ember, Angular 2, and React</li>
+                      <li>Gained knowledge in project design lifecycle</li>
+                      <li>Experience in: HTML/CSS, JavaScript, API fetches, ARIA and Semantic principles, React/Angular</li>
                     </ol>
                     <div class="card-action exp-years">
-                      <p>January 2017 - August 2018
+                      <p>January 2018 - August 2018
                       </p>
                     </div>
                   </div>
@@ -182,8 +167,10 @@
                       <h4 class="role">Software Engineer</h4>
                     </div>
                     <ol class="role-details">
-                      <li>test</li>
-                      <li>test</li>
+                      <li>Designing and writing CCL (Cerner SQL) extracts/reports/scripts.</li>
+                      <li>Collaborate with teammates by doing code reviews, daily scrum/stand-ups, etc. </li>
+                      <li>Active participant in LEAN and Agile methodologies.</li>
+                      <li>Experience in: CCL, HTML, JavaScript, Project Management</li>
                     </ol>
                     <div class="card-action exp-years">
                       <p>March 2017 - September 2018
@@ -199,11 +186,15 @@
                   <div class="card-content">
                     <div class="row">
                       <h4 class="header-color company">Cerner Corporation</h4>
-                      <h4 class="role">Software Analyst</h4>
+                      <h4 class="role">Solution Architect</h4>
                     </div>
                     <ol class="role-details">
-                      <li>test</li>
-                      <li>test</li>
+                      <li>Solved software issues including recommendations on defect fixes</li>
+                      <li>Provided continuous education for mentees and new associates</li>
+                      <li>Leading, creating and designing proactive checks for clients</li>
+                      <li>Maintained a leadership role on team</li>
+                      <li>Managed preparation for ICD-10 and provided cutover support in October 2015</li>
+                      <li>Experience in: Software troubleshooting (Java, C++, C#, JavaScript, CCL)</li>
                     </ol>
                     <div class="card-action exp-years">
                       <p>September 2011 - March 2017
@@ -272,6 +263,10 @@
                 <img src="img/ruby-original.svg" height="75" width="75" alt="Ruby" />
                 <p>Ruby</p>
               </div>
+              <div class="skill">
+                  <img src="img/csharp-original.svg" height="75" width="75" alt="c sharp" />
+                  <p>C Sharp</p>
+                </div>
             </dl>
           </li>
           <li>
@@ -321,7 +316,94 @@
       <section id="sect-projects" class="section scroll-spy">
         <h3 class="section-color">Projects</h3>
         <div class="section-text">
-          <ul class="project-list">
+          <div class="project-list">
+            <div class="row">
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image">
+                    <img src="img/arcade-game.png" alt="Arcade Game">
+                  </div>
+                  <div class="card-content activator">
+                    <i class="material-icons right">more_vert</i>
+                    <h4 class="header-color"><a href="https://github.com/Johnnyk737/arcade-game">Arcade Game</a></h4>
+                    <p>A JavaScript Frogger-style game</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                      <h4 class="header-color"><a href="https://github.com/Johnnyk737/arcade-game">Arcade Game</a></h4>
+                      <i class="material-icons right">close</i>
+                    </span>
+                    <p>Technologies used: 
+                      HTML/CSS, JavaScript, jQuery
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image">
+                    <img src="img/neighborhood-map.png" alt="Neighborhood Map">
+                  </div>
+                  <div class="card-content activator">
+                      <i class="material-icons right">more_vert</i>
+                    <h4 class="header-color"><a href="https://github.com/Johnnyk737/neighborhood-map">Neighborhood Map</a></h4>
+                    <p>This web app shows different tourist places to visit in Dublin, Ireland. </p>
+                  </div>
+                  <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">
+                          <h4 class="header-color"><a href="https://github.com/Johnnyk737/neighborhood-map">Neighborhood Map</a></h4>
+                          <i class="material-icons right">close</i>
+                        </span>
+                    <p>Technologies used:
+                      HTML/CSS, JavaScript, React, Google APIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image">
+                    <img src="img/myreads.png" alt="MyReads website">
+                  </div>
+                  <div class="card-content activator">
+                    <i class="material-icons right">more_vert</i>
+                    <h4 class="header-color"><a href="https://github.com/Johnnyk737/myreads">Book Store App</a></h4>
+                    <p>This React-designed webapp allows you to see the books you are currently reading, the books you want to read, and the books you have read</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                      <h4 class="header-color"><a href="https://github.com/Johnnyk737/myreads">Book Store App</a></h4>
+                      <i class="material-icons right">close</i>
+                    </span>
+                    <p>Technologies used: 
+                        HTML/CSS, JavaScript, React</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image">
+                    <img src="img/restaurant-review.png" alt="Restaurant Review" >
+                  </div>
+                  <div class="card-content activator">
+                      <i class="material-icons right">more_vert</i>
+                    <h4 class="header-color"><a href="https://github.com/Johnnyk737/restaurant-review">Restaurant Review</a></h4>
+                    <p>A React-built app that uses Google APIs to show you specific restaurant locations and show you their reviews</p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                      <h4 class="header-color"><a href="https://github.com/Johnnyk737/restaurant-review">Restaurant Review</a></h4>
+                      <i class="material-icons right">close</i>
+                    </span>
+                    <p>Technologies used: 
+                      HTML/CSS, JavaScript, React, Google APIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <ul class="project-list">
             <li>
               <div class="card horizontal">
                 <div class="card-stacked">
@@ -398,7 +480,7 @@
                 </div>
               </div>
             </li>
-          </ul>
+          </ul> -->
         </div>
         
       </section>
@@ -412,7 +494,7 @@
               <dd>Curriculum included Project Management, networking, and development.</dd>
               <dd>Languages covered: HTML, CSS, PHP, Java, SQL</dd>
             </li>
-
+            <br/>
             <li>
               <dd><em>Udacity (Jan 2018 – Aug 2018)</em></dd>
               <dd>Nanodegree – Front End Web Development</dd>
@@ -429,14 +511,22 @@
         <div class="section-text">
           <ul class="contact-list">
             <li>
-              Email: <a href="mailto:jmkroll21@gmail.com">jmkroll21@gmail.com</a>
+                <i class="material-icons">email</i>
+                <a href="mailto:jmkroll21@gmail.com">jmkroll21@gmail.com</a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/Johnnyk737">Johnnyk737</a>
+                <img src="img/github-original.svg" height="30" width="30" alt="GitHub" />
+                <a href="https://github.com/Johnnyk737">Johnnyk737</a>
             </li>
           </ul>
         </div>
       </section>
+      <footer class="footer-container section">
+        <div>
+          Copyright 2018
+          Created by John Kroll
+        </div>
+      </footer>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

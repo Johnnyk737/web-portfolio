@@ -2,3 +2,4 @@ node_modules
 devicon
 Notes.txt
 public
+package-lock.json

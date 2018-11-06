@@ -199,7 +199,7 @@ h3 {
 
 .experience-list, .project-list {
   list-style: none;
-  margin: 0 12%;
+  margin: 10px 5%;
 }
 
 .card {
@@ -214,6 +214,14 @@ h3 {
 
 .card-action {
   margin-top: 10px;
+}
+
+.card .card-image img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .card-action:last-child {
+  border-radius: 0 0 10px 10px;
 }
 
 .company {
@@ -277,6 +285,10 @@ h4 a {
   text-align: center;
 }
 
+.education-list {
+  list-style: none;
+}
+
 .contact-list {
   list-style: none;
 }
@@ -285,6 +297,14 @@ h4 a {
   text-decoration: underline !important;
 }
 
+.footer-container {
+  position: relative;
+  bottom: 10px;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  font-size: 0.9rem;
+}
 
 
 /**************************************
@@ -333,7 +353,7 @@ h4 a {
   }
 
   .name-desc {
-    margin-top: 12px;
+    margin-top: 15px;
     line-height: 80%;
   }
     
@@ -369,6 +389,10 @@ h4 a {
     top: 90px;
     position: relative;
   }
+
+  .footer-container {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -382,11 +406,12 @@ h4 a {
   }
 
   .project-list, .experience-list {
-    margin: 0;
+    margin: 0 12%;
   }
 
   .skill {
     display: inline-block;
     padding: 10px 20px;
   }
+
 }

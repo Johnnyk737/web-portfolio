@@ -146,7 +146,7 @@ h3 {
 
 .experience-list, .project-list {
   list-style: none;
-  margin: 0 12%; }
+  margin: 10px 5%; }
 
 .card {
   border-radius: 10px;
@@ -158,6 +158,12 @@ h3 {
 
 .card-action {
   margin-top: 10px; }
+
+.card .card-image img {
+  border-radius: 10px 10px 0px 0px; }
+
+.card .card-action:last-child {
+  border-radius: 0 0 10px 10px; }
 
 .company {
   float: left; }
@@ -207,11 +213,22 @@ h4 a {
   margin: 10px 0 0;
   text-align: center; }
 
+.education-list {
+  list-style: none; }
+
 .contact-list {
   list-style: none; }
 
 .contact-list a {
   text-decoration: underline !important; }
+
+.footer-container {
+  position: relative;
+  bottom: 10px;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  font-size: 0.9rem; }
 
 /**************************************
 
@@ -245,7 +262,7 @@ h4 a {
   nav .brand-logo {
     color: black; }
   .name-desc {
-    margin-top: 12px;
+    margin-top: 15px;
     line-height: 80%; }
   .sidebar-container {
     display: none; }
@@ -265,7 +282,9 @@ h4 a {
     top: 90px; }
   .section-text {
     top: 90px;
-    position: relative; } }
+    position: relative; }
+  .footer-container {
+    margin-top: 100px; } }
 
 @media (max-width: 550px) {
   .section-text > ol {
@@ -273,7 +292,7 @@ h4 a {
   .card {
     width: 100%; }
   .project-list, .experience-list {
-    margin: 0; }
+    margin: 0 12%; }
   .skill {
     display: inline-block;
     padding: 10px 20px; } }
